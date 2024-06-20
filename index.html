@@ -3,75 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esala's Personal Blog</title>
+    <title>Esala's Blog</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0; /* light grey background */
-            color: #333; /* dark grey text */
+            background-color: #f5f5f5;
+            color: #333;
             margin: 0;
             padding: 0;
         }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
+        header {
+            background-color: #a8d5e2;
             padding: 20px;
-            background-color: #fff; /* white background for content */
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            font-size: 2.5rem;
             text-align: center;
-            color: #6a2c70; /* pastel purple */
         }
-        .blog-post {
-            margin-bottom: 30px;
-        }
-        .post-title {
-            font-size: 1.5rem;
+        header h1 {
+            margin: 0;
             color: #333;
+            font-size: 2.5em;
         }
-        .post-date {
-            color: #999;
-            font-size: 0.9rem;
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .post-content {
-            line-height: 1.6;
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #a8d5e2;
+        }
+        .login-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .login-link a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-
-<div class="container">
     <header>
         <h1>Esala Thinks Methara Is Awesome</h1>
     </header>
-
-    <section class="blog-post">
-        <h2 class="post-title">First Blog Post Title</h2>
-        <p class="post-date">Published on June 20, 2024</p>
-        <div class="post-content">
-            <p>This is your first blog post content. You can write about anything you like!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et felis leo. Integer placerat lectus a nulla varius vulputate.</p>
+    <main>
+        <p>Welcome to my personal blog where I share my thoughts and ideas on various topics. Stay tuned for more updates!</p>
+        <div class="login-link">
+            <a href="login.html">Login to send updates</a>
         </div>
-    </section>
-
-    <section class="blog-post">
-        <h2 class="post-title">Second Blog Post Title</h2>
-        <p class="post-date">Published on June 21, 2024</p>
-        <div class="post-content">
-            <p>This is your second blog post content.</p>
-            <p>Phasellus quis mauris non magna rutrum vehicula vitae sit amet leo.</p>
-        </div>
-    </section>
-
-    <!-- Add more blog posts as needed -->
-
+    </main>
     <footer>
-        <p style="text-align: center;">&copy; 2024 Esala Thinks Methara Is Awesome. All rights reserved.</p>
+        <p>&copy; 2024 Esala. All rights reserved.</p>
     </footer>
-</div>
-
 </body>
 </html>
